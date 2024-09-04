@@ -1,0 +1,13 @@
+img{
+    width: 200px;
+    float: left;
+    margin-right: 0.75rem;
+    margin-left: 0.75rem;
+    /* position: absolute; */
+    float: left;
+}
+
+.frist-paragraph{
+    background-color: aqua;
+    clear: left;
+}

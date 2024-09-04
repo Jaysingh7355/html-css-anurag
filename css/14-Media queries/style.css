@@ -1,0 +1,21 @@
+.square {
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  border: 25px solid blue;
+  /* -webkit-print-color-adjust: exact; */
+}
+
+@media (max-width: 700px) {
+  .square {
+    border: 25px solid red;
+    background-color: hotpink;
+  }
+}
+
+/* @media (width <700px) {
+  .square {
+    border: 25px solid red;
+    background-color: hotpink;
+  }
+} */

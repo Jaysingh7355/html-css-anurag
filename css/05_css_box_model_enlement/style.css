@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+}
+
+p{
+    background-color: greenyellow;
+    width: 300px;
+    height: 100px;
+    padding: 25px;
+    margin: 20px;
+    border: 10px solid green;
+    box-sizing: border-box;
+}
+
+.span{
+    background-color: blue;
+    width: 200px;
+    height: 100px;
+    padding: 30px;
+}
+
+.div{
+    background-color: blueviolet;
+    padding: 25px;
+}
+

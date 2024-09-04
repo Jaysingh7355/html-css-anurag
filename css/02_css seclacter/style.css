@@ -1,0 +1,53 @@
+li{
+    font-size: 32px;
+    font-weight: 700;
+}
+.html{
+   color: #E96228; 
+}
+
+.css{
+    color: #2862E9;
+}
+
+.javascript{
+    color: brown;
+}
+
+.react{
+    color: #5ED3F3;
+}
+
+.Tailwind{
+    color: #19B3B7;
+}
+
+/* #html{
+    font-size: 32px;
+}
+#css{
+    font-size: 32px;
+}
+#JavaScript{
+    font-size: 32px;
+}
+#Tailwind{
+    font-size: 32px;
+}
+#react{
+    font-size: 32px;
+} */
+
+[jay]{
+    background-color: #19B3B7;
+}
+
+.web p{
+   background-color: #2862E9; 
+}
+
+h1:hover{
+    color: blue;
+}
+
+

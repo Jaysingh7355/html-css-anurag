@@ -1,0 +1,31 @@
+
+.one{
+    width: 300px;
+    background-color: aqua;
+    padding: 25PX;
+    border: 4PX solid teal;
+    border-radius: 10px; ;
+    box-sizing: border-box;
+    margin: 20px;
+}
+.two {
+    background-color: burlywood; 
+    width: 300px;
+    height: 300px;
+    padding: 0; /* Remove padding to avoid issues with the circular shape */
+    border: 8px solid teal;
+    border-radius: 50%; /* Use 50% to make it a perfect circle */
+    margin: 20px;
+    overflow: hidden; /* Hide any overflow */
+    display: flex; /* Center the image */
+    justify-content: center; /* Center the image */
+    align-items: center; /* Center the image */
+ }
+ 
+ .two img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 20%; /* Match the circular shape of the container */
+ }
+

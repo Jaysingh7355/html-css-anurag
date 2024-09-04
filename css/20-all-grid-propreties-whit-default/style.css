@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: lightblue;
+   display: grid;
+   grid-auto-flow: column  dense;
+   grid-template-columns: repeat(4,100px);
+  grid-auto-columns: auto;
+}
+
+.box {
+    color: white;
+    font-size: 4rem;
+    padding: 1rem;
+}
+
+.box-1 {
+    background-color: #FF5733; /* Red */
+    grid-column-start: 4;
+
+}
+
+.box-2 {
+    background-color: #33FF57; /* Green */
+}
+
+.box-3 {
+    background-color: #3357FF; /* Blue */
+}
+
+.box-4 {
+    background-color: #FF33A1; /* Pink */
+}
+
+.box-5 {
+    background-color: #FFFF33; /* Yellow */
+}
+
+.box-6 {
+    background-color: #33FFF5; /* Cyan */
+}
+
+.box-7 {
+    background-color: #FF5733; /* Orange */
+}
+
+.box-8 {
+    background-color: #33FFB3; /* Mint */
+}
+
+.box-9 {
+    background-color: #9D33FF; /* Purple */
+}
+
+.box-10 {
+    background-color: #FF3333; /* Dark Red */
+}

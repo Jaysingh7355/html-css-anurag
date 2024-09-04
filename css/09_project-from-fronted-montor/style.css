@@ -1,0 +1,35 @@
+body{
+    background-color: #D5E1EF;
+    position: relative;
+    font-family: cursive;
+    text-align: center;
+.card{
+    position: fixed;
+    margin: auto;
+    inset:0;
+    width: 100%;
+    max-width: 336px;
+    height: 512px;
+    background-color:white ;
+    padding: 1rem;
+   box-shadow: 0px 10px 20px 0px rgb(0 0 0 / 30%);
+  
+   border-radius: 16px;
+   padding-bottom:3rem ;
+}
+
+img{
+    width: 100%;
+    border-radius: 10px;
+  
+}
+
+h3{
+   color:hsl(218,44%,22%);
+}
+p{
+    color: hsl(220, 15%, 55%);
+}
+
+
+
